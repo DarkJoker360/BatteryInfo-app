@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2025 Simone Esposito
+  SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <color name="colorPrimaryDark">#8DBE99</color>
+    <color name="colorOnPrimaryDark">#003910</color>
+    <color name="colorPrimaryContainerDark">#005D1E</color>
+    <color name="colorOnPrimaryContainerDark">#A8DAB5</color>
+    <color name="colorSecondaryDark">#B9CCB4</color>
+    <color name="colorOnSecondaryDark">#243424</color>
+    <color name="colorSecondaryContainerDark">#3A4B39</color>
+    <color name="colorOnSecondaryContainerDark">#D5E8D0</color>
+    <color name="colorTertiaryDark">#A0CFD6</color>
+    <color name="colorOnTertiaryDark">#00363B</color>
+    <color name="colorTertiaryContainerDark">#1E4D53</color>
+    <color name="colorOnTertiaryContainerDark">#BBEBF2</color>
+    <color name="colorErrorDark">#FFB4AB</color>
+    <color name="colorOnErrorDark">#690005</color>
+    <color name="colorErrorContainerDark">#93000A</color>
+    <color name="colorOnErrorContainerDark">#FFDAD6</color>
+    <color name="colorOutlineDark">#8C9388</color>
+    <color name="colorOutlineVariantDark">#424940</color>
+    <color name="colorSurfaceDark">#0F130D</color>
+    <color name="colorOnSurfaceDark">#C4C7BF</color>
+    <color name="colorSurfaceVariantDark">#424940</color>
+    <color name="colorOnSurfaceVariantDark">#C2C9BD</color>
+    <color name="colorInverseSurfaceDark">#C4C7BF</color>
+    <color name="colorInverseOnSurfaceDark">#2E322C</color>
+    <color name="colorInversePrimaryDark">#2E7D32</color>
+    <color name="colorSurfaceTintDark">#8DBE99</color>
+</resources>

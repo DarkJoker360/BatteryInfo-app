@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2025 Simone Esposito
+  SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Akku-Informationen</string>
+
+    <string name="appwidget_text">Akku</string>
+    <string name="health">Zustand</string>
+    <string name="source">Ladequelle</string>
+    <string name="voltage">Spannung</string>
+    <string name="temperature">Temperatur</string>
+    <string name="technology">Technologie</string>
+    <string name="time_remaining">Verbleibende Zeit</string>
+    <string name="unknown">Unbekannt</string>
+    <string name="battery">Akku</string>
+    <string name="battery_warning">Akku-Warnung</string>
+    <string name="battery_assistance_required">Akku-Unterstützung erforderlich</string>
+    <string name="battery_health_data_failed">Fehler beim Lesen der Akku-Zustandsinformationen</string>
+    <string name="battery_level_low">Der Akkustand ist niedrig. Laden Sie Ihr Gerät bald auf, um unerwartete Abschaltungen zu vermeiden.</string>
+    <string name="battery_saver">Energiesparmodus</string>
+    <string name="battery_saver_on">Energiesparmodus ist aktiviert</string>
+    <string name="battery_status_charging">Lädt</string>
+    <string name="battery_status_discharging">Entlädt</string>
+    <string name="battery_status_full">Voll</string>
+    <string name="battery_status_not_charging">Lädt nicht</string>
+    <string name="cycles">Zyklen</string>
+    <string name="charging_speed">Ladegeschwindigkeit</string>
+    <string name="current_capacity">Aktuelle Kapazität</string>
+    <string name="charging_source_ac">Netzladegerät</string>
+    <string name="charging_source_usb">USB</string>
+    <string name="charging_source_wireless">Kabellos</string>
+    <string name="charging_source_dock">Dockingstation</string>
+    <string name="design_capacity">Nennkapazität</string>
+    <string name="detailed_info">Detaillierte Informationen</string>
+    <string name="dialog_notice">Informationen können ungenau sein, abhängig vom Akkustand des Geräts und den Akkutreibern</string>
+    <string name="widget_description">Aktueller Akku-Prozentsatz</string>
+    <string name="enhanced_widget_description">Erweiterte Akku-Informationen</string>
+    <string name="open_battery_settings">Akku-Einstellungen öffnen</string>
+    <string name="failed_to_open_battery_settings">Fehler beim Öffnen der Akku-Einstellungen.</string>
+</resources>

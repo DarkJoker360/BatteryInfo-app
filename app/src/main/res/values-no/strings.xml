@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2025 Simone Esposito
+  SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Batteriinformasjon</string>
+
+    <string name="appwidget_text">Batteri</string>
+    <string name="health">Helse</string>
+    <string name="source">Ladekilde</string>
+    <string name="voltage">Spenning</string>
+    <string name="temperature">Temperatur</string>
+    <string name="technology">Teknologi</string>
+    <string name="time_remaining">Gjenværende Tid</string>
+    <string name="unknown">Ukjent</string>
+    <string name="battery">Batteri</string>
+    <string name="battery_warning">Batterivarsel</string>
+    <string name="battery_assistance_required">Batterihjelp kreves</string>
+    <string name="battery_health_data_failed">Klarte ikke å lese batterihelseinformasjon</string>
+    <string name="battery_level_low">Batterinivået er lavt. Vurder å lade enheten din snart for å unngå uventede avstengninger.</string>
+    <string name="battery_saver">Batterisparer</string>
+    <string name="battery_saver_on">Batterisparer er på</string>
+    <string name="battery_status_charging">Lader</string>
+    <string name="battery_status_discharging">Utlader</string>
+    <string name="battery_status_full">Full</string>
+    <string name="battery_status_not_charging">Lader ikke</string>
+    <string name="cycles">Sykluser</string>
+    <string name="charging_speed">Ladehastighet</string>
+    <string name="current_capacity">Nåværende Kapasitet</string>
+    <string name="charging_source_ac">AC-lader</string>
+    <string name="charging_source_usb">USB</string>
+    <string name="charging_source_wireless">Trådløs</string>
+    <string name="charging_source_dock">Dokkingstasjon</string>
+    <string name="design_capacity">Designkapasitet</string>
+    <string name="detailed_info">Detaljert Informasjon</string>
+    <string name="dialog_notice">Informasjon kan være unøyaktig, avhengig av enhetens batterinivå og batteridrivere</string>
+    <string name="widget_description">Faktisk batteriprosent nivå</string>
+    <string name="enhanced_widget_description">Avansert batteriinformasjon</string>
+    <string name="open_battery_settings">Åpne batteriinnstillinger</string>
+    <string name="failed_to_open_battery_settings">Klarte ikke å åpne batteriinnstillinger.</string>
+</resources>

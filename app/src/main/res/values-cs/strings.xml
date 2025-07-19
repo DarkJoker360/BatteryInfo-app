@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2025 Simone Esposito
+  SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Informace o Baterii</string>
+
+    <string name="appwidget_text">Baterie</string>
+    <string name="health">Stav</string>
+    <string name="source">Zdroj Nabíjení</string>
+    <string name="voltage">Napětí</string>
+    <string name="temperature">Teplota</string>
+    <string name="technology">Technologie</string>
+    <string name="time_remaining">Zbývající Čas</string>
+    <string name="unknown">Neznámý</string>
+    <string name="battery">Baterie</string>
+    <string name="battery_warning">Varování Baterie</string>
+    <string name="battery_assistance_required">Pomoc s baterií je vyžadována</string>
+    <string name="battery_health_data_failed">Nepodařilo se přečíst informace o stavu baterie</string>
+    <string name="battery_level_low">Úroveň baterie je nízká. Zvažte brzy nabití vašeho zařízení, aby se předešlo neočekávaným vypnutím.</string>
+    <string name="battery_saver">Šetřič Baterie</string>
+    <string name="battery_saver_on">Šetřič baterie je zapnutý</string>
+    <string name="battery_status_charging">Nabíjí se</string>
+    <string name="battery_status_discharging">Vybíjí se</string>
+    <string name="battery_status_full">Plná</string>
+    <string name="battery_status_not_charging">Nenabíjí se</string>
+    <string name="cycles">Cykly</string>
+    <string name="charging_speed">Rychlost Nabíjení</string>
+    <string name="current_capacity">Aktuální Kapacita</string>
+    <string name="charging_source_ac">AC Nabíječka</string>
+    <string name="charging_source_usb">USB</string>
+    <string name="charging_source_wireless">Bezdrátová</string>
+    <string name="charging_source_dock">Dokovací stanice</string>
+    <string name="design_capacity">Návrhová Kapacita</string>
+    <string name="detailed_info">Podrobné Informace</string>
+    <string name="dialog_notice">Informace mohou být nesprávné, v závislosti na úrovni baterie zařízení a ovladačích baterie</string>
+    <string name="widget_description">Skutečná procentuální úroveň baterie</string>
+    <string name="enhanced_widget_description">Pokročilé informace o baterii</string>
+    <string name="open_battery_settings">Otevřít nastavení baterie</string>
+    <string name="failed_to_open_battery_settings">Nepodařilo se otevřít nastavení baterie.</string>
+</resources>

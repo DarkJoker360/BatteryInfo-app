@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2025 Simone Esposito
+  SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Batterioplysninger</string>
+
+    <string name="appwidget_text">Batteri</string>
+    <string name="health">Sundhed</string>
+    <string name="source">Opladningskilde</string>
+    <string name="voltage">Spænding</string>
+    <string name="temperature">Temperatur</string>
+    <string name="technology">Teknologi</string>
+    <string name="time_remaining">Resterende Tid</string>
+    <string name="unknown">Ukendt</string>
+    <string name="battery">Batteri</string>
+    <string name="battery_warning">Batteriadvaring</string>
+    <string name="battery_assistance_required">Batterihjælp påkrævet</string>
+    <string name="battery_health_data_failed">Mislykkedes at læse batterihelbredsoplysninger</string>
+    <string name="battery_level_low">Batteriniveauet er lavt. Overvej at oplade din enhed snart for at undgå uventede nedlukninger.</string>
+    <string name="battery_saver">Batterisparer</string>
+    <string name="battery_saver_on">Batterisparer er tændt</string>
+    <string name="battery_status_charging">Oplader</string>
+    <string name="battery_status_discharging">Aflader</string>
+    <string name="battery_status_full">Fuld</string>
+    <string name="battery_status_not_charging">Oplader ikke</string>
+    <string name="cycles">Cyklusser</string>
+    <string name="charging_speed">Opladningshastighed</string>
+    <string name="current_capacity">Nuværende Kapacitet</string>
+    <string name="charging_source_ac">AC-oplader</string>
+    <string name="charging_source_usb">USB</string>
+    <string name="charging_source_wireless">Trådløs</string>
+    <string name="charging_source_dock">Dockingstation</string>
+    <string name="design_capacity">Designkapacitet</string>
+    <string name="detailed_info">Detaljerede Oplysninger</string>
+    <string name="dialog_notice">Oplysninger kan være unøjagtige, afhængigt af enhedens batteriniveau og batteridrivere</string>
+    <string name="widget_description">Faktisk batteriprocent niveau</string>
+    <string name="enhanced_widget_description">Avanceret batterioplysninger</string>
+    <string name="open_battery_settings">Åbn batteriindstillinger</string>
+    <string name="failed_to_open_battery_settings">Mislykkedes at åbne batteriindstillinger.</string>
+</resources>

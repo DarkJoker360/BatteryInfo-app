@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2025 Simone Esposito
+  SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <color name="colorPrimary">#2E7D32</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorPrimaryContainer">#A8DAB5</color>
+    <color name="colorOnPrimaryContainer">#002106</color>
+    <color name="colorSecondary">#52634F</color>
+    <color name="colorOnSecondary">#FFFFFF</color>
+    <color name="colorSecondaryContainer">#D5E8D0</color>
+    <color name="colorOnSecondaryContainer">#101F0F</color>
+    <color name="colorTertiary">#38656B</color>
+    <color name="colorOnTertiary">#FFFFFF</color>
+    <color name="colorTertiaryContainer">#BBEBF2</color>
+    <color name="colorOnTertiaryContainer">#001F23</color>
+    <color name="colorError">#BA1A1A</color>
+    <color name="colorOnError">#FFFFFF</color>
+    <color name="colorErrorContainer">#FFDAD6</color>
+    <color name="colorOnErrorContainer">#410002</color>
+    <color name="colorOutline">#72796F</color>
+    <color name="colorOutlineVariant">#C2C9BD</color>
+    <color name="colorSurface">#F8FDF6</color>
+    <color name="colorOnSurface">#191D17</color>
+    <color name="colorSurfaceVariant">#DDE5DA</color>
+    <color name="colorOnSurfaceVariant">#424940</color>
+    <color name="colorInverseSurface">#2E322C</color>
+    <color name="colorInverseOnSurface">#EFF2EA</color>
+    <color name="colorInversePrimary">#8DBE99</color>
+    <color name="colorSurfaceTint">#2E7D32</color>
+
+    <color name="colorPrimaryDark">#8DBE99</color>
+    <color name="colorOnPrimaryDark">#00390E</color>
+    <color name="colorPrimaryContainerDark">#165D20</color>
+    <color name="colorOnPrimaryContainerDark">#A8DAB5</color>
+    <color name="colorSecondaryDark">#B9CCB4</color>
+    <color name="colorOnSecondaryDark">#253423</color>
+    <color name="colorSecondaryContainerDark">#3B4B39</color>
+    <color name="colorOnSecondaryContainerDark">#D5E8D0</color>
+    <color name="colorTertiaryDark">#A0CFD6</color>
+    <color name="colorOnTertiaryDark">#00363C</color>
+    <color name="colorTertiaryContainerDark">#1E4D53</color>
+    <color name="colorOnTertiaryContainerDark">#BBEBF2</color>
+    <color name="colorErrorDark">#FFB4AB</color>
+    <color name="colorOnErrorDark">#690005</color>
+    <color name="colorErrorContainerDark">#93000A</color>
+    <color name="colorOnErrorContainerDark">#FFDAD6</color>
+    <color name="colorOutlineDark">#8C9388</color>
+    <color name="colorOutlineVariantDark">#424940</color>
+    <color name="colorSurfaceDark">#101410</color>
+    <color name="colorOnSurfaceDark">#E0E3DB</color>
+    <color name="colorSurfaceVariantDark">#424940</color>
+    <color name="colorOnSurfaceVariantDark">#C2C9BD</color>
+    <color name="colorInverseSurfaceDark">#E0E3DB</color>
+    <color name="colorInverseOnSurfaceDark">#2E322C</color>
+    <color name="colorInversePrimaryDark">#2E7D32</color>
+    <color name="colorSurfaceTintDark">#8DBE99</color>
+
+    <!-- Battery Status Colors -->
+    <color name="battery_critical">#D32F2F</color>
+    <color name="battery_low">#FF9800</color>
+    <color name="battery_medium">#FFC107</color>
+    <color name="battery_high">#4CAF50</color>
+    <color name="battery_full">#2E7D32</color>
+    <color name="battery_charging">#1976D2</color>
+    
+    <!-- Legacy colors for backward compatibility -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background_light">#ffffffff</color>
+    <color name="background_dark">#ff242424</color>
+    <color name="text">#2E2E2E</color>
+    <color name="green_200">#A5D6A7</color>
+    <color name="green_500">#4CAF50</color>
+    <color name="green_700">#388E3C</color>
+    <color name="teal_200">#80CBC4</color>
+    <color name="teal_700">#00796B</color>
+    <color name="light_blue_50">#FFE1F5FE</color>
+    <color name="light_blue_200">#FF81D4FA</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    
+    <!-- Battery Health Colors -->
+    <color name="light_red">#FFCDD2</color>
+    <color name="dark_red">#C62828</color>
+    <color name="light_orange">#FFF3E0</color>
+    <color name="orange">#FF8F00</color>
+</resources>

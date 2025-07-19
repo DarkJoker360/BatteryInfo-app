@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2025 Simone Esposito
+  SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Akkumulátor Információk</string>
+
+    <string name="appwidget_text">Akkumulátor</string>
+    <string name="health">Állapot</string>
+    <string name="source">Töltési Forrás</string>
+    <string name="voltage">Feszültség</string>
+    <string name="temperature">Hőmérséklet</string>
+    <string name="technology">Technológia</string>
+    <string name="time_remaining">Hátralévő Idő</string>
+    <string name="unknown">Ismeretlen</string>
+    <string name="battery">Akkumulátor</string>
+    <string name="battery_warning">Akkumulátor Figyelmeztetés</string>
+    <string name="battery_assistance_required">Akkumulátor segítség szükséges</string>
+    <string name="battery_health_data_failed">Az akkumulátor állapot információk olvasása sikertelen</string>
+    <string name="battery_level_low">Az akkumulátor szintje alacsony. Fontolja meg az eszköz hamarosan történő feltöltését a váratlan leállások elkerülése érdekében.</string>
+    <string name="battery_saver">Akkumulátor Kímélő</string>
+    <string name="battery_saver_on">Az akkumulátor kímélő be van kapcsolva</string>
+    <string name="battery_status_charging">Töltés</string>
+    <string name="battery_status_discharging">Merülés</string>
+    <string name="battery_status_full">Tele</string>
+    <string name="battery_status_not_charging">Nem tölt</string>
+    <string name="cycles">Ciklusok</string>
+    <string name="charging_speed">Töltési Sebesség</string>
+    <string name="current_capacity">Jelenlegi Kapacitás</string>
+    <string name="charging_source_ac">AC Töltő</string>
+    <string name="charging_source_usb">USB</string>
+    <string name="charging_source_wireless">Vezeték nélküli</string>
+    <string name="charging_source_dock">Dokkoló</string>
+    <string name="design_capacity">Tervezési Kapacitás</string>
+    <string name="detailed_info">Részletes Információk</string>
+    <string name="dialog_notice">Az információk pontatlanok lehetnek, az eszköz akkumulátor szintjétől és az akkumulátor illesztőprogramjaitól függően</string>
+    <string name="widget_description">Tényleges akkumulátor százalék szint</string>
+    <string name="enhanced_widget_description">Speciális akkumulátor információk</string>
+    <string name="open_battery_settings">Akkumulátor beállítások megnyitása</string>
+    <string name="failed_to_open_battery_settings">Az akkumulátor beállítások megnyitása sikertelen.</string>
+</resources>

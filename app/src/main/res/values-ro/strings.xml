@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2025 Simone Esposito
+  SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Informații Baterie</string>
+
+    <string name="appwidget_text">Baterie</string>
+    <string name="health">Stare</string>
+    <string name="source">Sursa de Încărcare</string>
+    <string name="voltage">Tensiune</string>
+    <string name="temperature">Temperatură</string>
+    <string name="technology">Tehnologie</string>
+    <string name="time_remaining">Timp Rămas</string>
+    <string name="unknown">Necunoscut</string>
+    <string name="battery">Baterie</string>
+    <string name="battery_warning">Avertizare Baterie</string>
+    <string name="battery_assistance_required">Asistență baterie necesară</string>
+    <string name="battery_health_data_failed">Citirea informațiilor despre starea bateriei a eșuat</string>
+    <string name="battery_level_low">Nivelul bateriei este scăzut. Luați în considerare încărcarea dispozitivului în curând pentru a evita opriri neașteptate.</string>
+    <string name="battery_saver">Economisire Baterie</string>
+    <string name="battery_saver_on">Economisirea bateriei este activată</string>
+    <string name="battery_status_charging">Se încarcă</string>
+    <string name="battery_status_discharging">Se descarcă</string>
+    <string name="battery_status_full">Plină</string>
+    <string name="battery_status_not_charging">Nu se încarcă</string>
+    <string name="cycles">Cicluri</string>
+    <string name="charging_speed">Viteza de Încărcare</string>
+    <string name="current_capacity">Capacitatea Actuală</string>
+    <string name="charging_source_ac">Încărcător AC</string>
+    <string name="charging_source_usb">USB</string>
+    <string name="charging_source_wireless">Wireless</string>
+    <string name="charging_source_dock">Stație de andocare</string>
+    <string name="design_capacity">Capacitatea de Proiectare</string>
+    <string name="detailed_info">Informații Detaliate</string>
+    <string name="dialog_notice">Informațiile pot fi incorecte, în funcție de nivelul bateriei dispozitivului și driverele bateriei</string>
+    <string name="widget_description">Nivelul real de procent al bateriei</string>
+    <string name="enhanced_widget_description">Informații avansate despre baterie</string>
+    <string name="open_battery_settings">Deschide setările bateriei</string>
+    <string name="failed_to_open_battery_settings">Deschiderea setărilor bateriei a eșuat.</string>
+</resources>

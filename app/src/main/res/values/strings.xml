@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2025 Simone Esposito
+  SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Battery Info</string>
+
+    <string name="appwidget_text">Battery</string>
+    <string name="health">Health</string>
+    <string name="source">Charging Source</string>
+    <string name="voltage">Voltage</string>
+    <string name="temperature">Temperature</string>
+    <string name="technology">Technology</string>
+    <string name="time_remaining">Time Remaining</string>
+    <string name="unknown">Unknown</string>
+    <string name="battery">Battery</string>
+    <string name="battery_warning">Battery Warning</string>
+    <string name="battery_assistance_required">Battery assistance required</string>
+    <string name="battery_health_data_failed">Failed to read battery health information</string>
+    <string name="battery_level_low">Battery level is low. Consider charging your device soon to avoid unexpected shutdowns.</string>
+    <string name="battery_saver">Battery Saver</string>
+    <string name="battery_saver_on">Battery saver is on</string>
+    <string name="battery_status_charging">Charging</string>
+    <string name="battery_status_discharging">Discharging</string>
+    <string name="battery_status_full">Full</string>
+    <string name="battery_status_not_charging">Not Charging</string>
+    <string name="cycles">Cycles</string>
+    <string name="charging_speed">Charging Speed</string>
+    <string name="current_capacity">Current Capacity</string>
+    <string name="charging_source_ac">AC Charger</string>
+    <string name="charging_source_usb">USB</string>
+    <string name="charging_source_wireless">Wireless</string>
+    <string name="charging_source_dock">Dock</string>
+    <string name="design_capacity">Design Capacity</string>
+    <string name="detailed_info">Detailed Information</string>
+    <string name="dialog_notice">Information may be incorrect, depending on device battery level and battery drivers</string>
+    <string name="widget_description">Actual battery percentage level</string>
+    <string name="enhanced_widget_description">Advanced battery information</string>
+    <string name="open_battery_settings">Open battery settings</string>
+    <string name="failed_to_open_battery_settings">Failed to open battery settings.</string>
+
+    <string name="def" translatable="false">-</string>
+    <string name="charging_speed_format" translatable="false">%.1f mA</string>
+    <string name="battery_level_percentage" translatable="false">%1$d%%</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2025 Simone Esposito
+  SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Akkutiedot</string>
+
+    <string name="appwidget_text">Akku</string>
+    <string name="health">Kunto</string>
+    <string name="source">Latauslähde</string>
+    <string name="voltage">Jännite</string>
+    <string name="temperature">Lämpötila</string>
+    <string name="technology">Teknologia</string>
+    <string name="time_remaining">Jäljellä Oleva Aika</string>
+    <string name="unknown">Tuntematon</string>
+    <string name="battery">Akku</string>
+    <string name="battery_warning">Akkuvaroitus</string>
+    <string name="battery_assistance_required">Akkuapu tarvitaan</string>
+    <string name="battery_health_data_failed">Akkukuntotietojen lukeminen epäonnistui</string>
+    <string name="battery_level_low">Akkutaso on matala. Harkitse laitteesi lataamista pian odottamattomien sammutuksien välttämiseksi.</string>
+    <string name="battery_saver">Akkusäästäjä</string>
+    <string name="battery_saver_on">Akkusäästäjä on päällä</string>
+    <string name="battery_status_charging">Lataa</string>
+    <string name="battery_status_discharging">Purkaa</string>
+    <string name="battery_status_full">Täysi</string>
+    <string name="battery_status_not_charging">Ei lataa</string>
+    <string name="cycles">Syklit</string>
+    <string name="charging_speed">Latausnopeus</string>
+    <string name="current_capacity">Nykyinen Kapasiteetti</string>
+    <string name="charging_source_ac">AC-laturi</string>
+    <string name="charging_source_usb">USB</string>
+    <string name="charging_source_wireless">Langaton</string>
+    <string name="charging_source_dock">Telakka</string>
+    <string name="design_capacity">Suunnittelukapasiteetti</string>
+    <string name="detailed_info">Yksityiskohtaiset Tiedot</string>
+    <string name="dialog_notice">Tiedot voivat olla virheellisiä, riippuen laitteen akkutasosta ja akkuajureista</string>
+    <string name="widget_description">Todellinen akun prosenttitaso</string>
+    <string name="enhanced_widget_description">Edistyneet akkutiedot</string>
+    <string name="open_battery_settings">Avaa akkuasetukset</string>
+    <string name="failed_to_open_battery_settings">Akkuasetusten avaaminen epäonnistui.</string>
+</resources>

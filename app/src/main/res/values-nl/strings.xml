@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2025 Simone Esposito
+  SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Batterij Informatie</string>
+
+    <string name="appwidget_text">Batterij</string>
+    <string name="health">Status</string>
+    <string name="source">Oplaadbron</string>
+    <string name="voltage">Spanning</string>
+    <string name="temperature">Temperatuur</string>
+    <string name="technology">Technologie</string>
+    <string name="time_remaining">Resterende Tijd</string>
+    <string name="unknown">Onbekend</string>
+    <string name="battery">Batterij</string>
+    <string name="battery_warning">Batterij Waarschuwing</string>
+    <string name="battery_assistance_required">Batterij hulp vereist</string>
+    <string name="battery_health_data_failed">Fout bij het lezen van batterijgezondheid informatie</string>
+    <string name="battery_level_low">Het batterijniveau is laag. Overweeg om je apparaat binnenkort op te laden om onverwachte uitschakelingen te voorkomen.</string>
+    <string name="battery_saver">Batterijbesparing</string>
+    <string name="battery_saver_on">Batterijbesparing is ingeschakeld</string>
+    <string name="battery_status_charging">Aan het opladen</string>
+    <string name="battery_status_discharging">Aan het ontladen</string>
+    <string name="battery_status_full">Vol</string>
+    <string name="battery_status_not_charging">Niet aan het opladen</string>
+    <string name="cycles">Cycli</string>
+    <string name="charging_speed">Oplaadsnelheid</string>
+    <string name="current_capacity">Huidige Capaciteit</string>
+    <string name="charging_source_ac">AC Oplader</string>
+    <string name="charging_source_usb">USB</string>
+    <string name="charging_source_wireless">Draadloos</string>
+    <string name="charging_source_dock">Dock</string>
+    <string name="design_capacity">Ontwerp Capaciteit</string>
+    <string name="detailed_info">Gedetailleerde Informatie</string>
+    <string name="dialog_notice">Informatie kan onjuist zijn, afhankelijk van het batterijniveau van het apparaat en batterijstuurprogramma\'s</string>
+    <string name="widget_description">Werkelijk batterijpercentage niveau</string>
+    <string name="enhanced_widget_description">Geavanceerde batterij informatie</string>
+    <string name="open_battery_settings">Batterij instellingen openen</string>
+    <string name="failed_to_open_battery_settings">Fout bij het openen van batterij instellingen.</string>
+</resources>

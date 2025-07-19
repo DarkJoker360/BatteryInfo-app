@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2025 Simone Esposito
+  SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Информация за Батерията</string>
+
+    <string name="appwidget_text">Батерия</string>
+    <string name="health">Състояние</string>
+    <string name="source">Източник на Зареждане</string>
+    <string name="voltage">Напрежение</string>
+    <string name="temperature">Температура</string>
+    <string name="technology">Технология</string>
+    <string name="time_remaining">Оставащо Време</string>
+    <string name="unknown">Неизвестно</string>
+    <string name="battery">Батерия</string>
+    <string name="battery_warning">Предупреждение за Батерията</string>
+    <string name="battery_assistance_required">Необходима е помощ за батерията</string>
+    <string name="battery_health_data_failed">Неуспешно четене на информацията за състоянието на батерията</string>
+    <string name="battery_level_low">Нивото на батерията е ниско. Помислете да заредите устройството си скоро, за да избегнете неочаквани изключвания.</string>
+    <string name="battery_saver">Пестене на Батерия</string>
+    <string name="battery_saver_on">Пестенето на батерия е включено</string>
+    <string name="battery_status_charging">Зарежда се</string>
+    <string name="battery_status_discharging">Разрежда се</string>
+    <string name="battery_status_full">Пълна</string>
+    <string name="battery_status_not_charging">Не се зарежда</string>
+    <string name="cycles">Цикли</string>
+    <string name="charging_speed">Скорост на Зареждане</string>
+    <string name="current_capacity">Текущ Капацитет</string>
+    <string name="charging_source_ac">AC Зарядно</string>
+    <string name="charging_source_usb">USB</string>
+    <string name="charging_source_wireless">Безжично</string>
+    <string name="charging_source_dock">Док станция</string>
+    <string name="design_capacity">Проектен Капацитет</string>
+    <string name="detailed_info">Подробна Информация</string>
+    <string name="dialog_notice">Информацията може да бъде неточна, в зависимост от нивото на батерията на устройството и драйверите на батерията</string>
+    <string name="widget_description">Действително ниво на батерията в проценти</string>
+    <string name="enhanced_widget_description">Разширена информация за батерията</string>
+    <string name="open_battery_settings">Отвори настройките на батерията</string>
+    <string name="failed_to_open_battery_settings">Неуспешно отваряне на настройките на батерията.</string>
+</resources>

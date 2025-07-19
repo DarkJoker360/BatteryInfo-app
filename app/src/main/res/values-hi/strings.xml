@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2025 Simone Esposito
+  SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">बैटरी जानकारी</string>
+
+    <string name="appwidget_text">बैटरी</string>
+    <string name="health">स्वास्थ्य</string>
+    <string name="source">चार्जिंग स्रोत</string>
+    <string name="voltage">वोल्टेज</string>
+    <string name="temperature">तापमान</string>
+    <string name="technology">प्रौद्योगिकी</string>
+    <string name="time_remaining">शेष समय</string>
+    <string name="unknown">अज्ञात</string>
+    <string name="battery">बैटरी</string>
+    <string name="battery_warning">बैटरी चेतावनी</string>
+    <string name="battery_assistance_required">बैटरी सहायता आवश्यक है</string>
+    <string name="battery_health_data_failed">बैटरी स्वास्थ्य जानकारी पढ़ने में विफल</string>
+    <string name="battery_level_low">बैटरी का स्तर कम है। अप्रत्याशित शटडाउन से बचने के लिए जल्द ही अपने डिवाइस को चार्ज करने पर विचार करें।</string>
+    <string name="battery_saver">बैटरी सेवर</string>
+    <string name="battery_saver_on">बैटरी सेवर चालू है</string>
+    <string name="battery_status_charging">चार्ज हो रहा है</string>
+    <string name="battery_status_discharging">डिस्चार्ज हो रहा है</string>
+    <string name="battery_status_full">पूर्ण</string>
+    <string name="battery_status_not_charging">चार्ज नहीं हो रहा</string>
+    <string name="cycles">चक्र</string>
+    <string name="charging_speed">चार्जिंग गति</string>
+    <string name="current_capacity">वर्तमान क्षमता</string>
+    <string name="charging_source_ac">AC चार्जर</string>
+    <string name="charging_source_usb">USB</string>
+    <string name="charging_source_wireless">वायरलेस</string>
+    <string name="charging_source_dock">डॉक</string>
+    <string name="design_capacity">डिज़ाइन क्षमता</string>
+    <string name="detailed_info">विस्तृत जानकारी</string>
+    <string name="dialog_notice">जानकारी गलत हो सकती है, यह डिवाइस की बैटरी स्तर और बैटरी ड्राइवर पर निर्भर करता है</string>
+    <string name="widget_description">वास्तविक बैटरी प्रतिशत स्तर</string>
+    <string name="enhanced_widget_description">उन्नत बैटरी जानकारी</string>
+    <string name="open_battery_settings">बैटरी सेटिंग्स खोलें</string>
+    <string name="failed_to_open_battery_settings">बैटरी सेटिंग्स खोलने में विफल।</string>
+</resources>

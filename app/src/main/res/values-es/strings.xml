@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2025 Simone Esposito
+  SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Información de Batería</string>
+
+    <string name="appwidget_text">Batería</string>
+    <string name="health">Salud</string>
+    <string name="source">Fuente de Carga</string>
+    <string name="voltage">Voltaje</string>
+    <string name="temperature">Temperatura</string>
+    <string name="technology">Tecnología</string>
+    <string name="time_remaining">Tiempo Restante</string>
+    <string name="unknown">Desconocido</string>
+    <string name="battery">Batería</string>
+    <string name="battery_warning">Advertencia de Batería</string>
+    <string name="battery_assistance_required">Se requiere asistencia de batería</string>
+    <string name="battery_health_data_failed">Error al leer la información de salud de la batería</string>
+    <string name="battery_level_low">El nivel de batería está bajo. Considera cargar tu dispositivo pronto para evitar apagados inesperados.</string>
+    <string name="battery_saver">Ahorro de Batería</string>
+    <string name="battery_saver_on">El ahorro de batería está activado</string>
+    <string name="battery_status_charging">Cargando</string>
+    <string name="battery_status_discharging">Descargando</string>
+    <string name="battery_status_full">Completa</string>
+    <string name="battery_status_not_charging">No Cargando</string>
+    <string name="cycles">Ciclos</string>
+    <string name="charging_speed">Velocidad de Carga</string>
+    <string name="current_capacity">Capacidad Actual</string>
+    <string name="charging_source_ac">Cargador CA</string>
+    <string name="charging_source_usb">USB</string>
+    <string name="charging_source_wireless">Inalámbrico</string>
+    <string name="charging_source_dock">Base</string>
+    <string name="design_capacity">Capacidad de Diseño</string>
+    <string name="detailed_info">Información Detallada</string>
+    <string name="dialog_notice">La información puede ser incorrecta, dependiendo del nivel de batería del dispositivo y los controladores de batería</string>
+    <string name="widget_description">Nivel de porcentaje de batería actual</string>
+    <string name="enhanced_widget_description">Información avanzada de batería</string>
+    <string name="open_battery_settings">Abrir configuración de batería</string>
+    <string name="failed_to_open_battery_settings">Error al abrir la configuración de batería.</string>
+</resources>

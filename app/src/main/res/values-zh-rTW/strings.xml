@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2025 Simone Esposito
+  SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">電池資訊</string>
+
+    <string name="appwidget_text">電池</string>
+    <string name="health">健康狀態</string>
+    <string name="source">充電來源</string>
+    <string name="voltage">電壓</string>
+    <string name="temperature">溫度</string>
+    <string name="technology">技術</string>
+    <string name="time_remaining">剩餘時間</string>
+    <string name="unknown">未知</string>
+    <string name="battery">電池</string>
+    <string name="battery_warning">電池警告</string>
+    <string name="battery_assistance_required">需要電池協助</string>
+    <string name="battery_health_data_failed">讀取電池健康資訊失敗</string>
+    <string name="battery_level_low">電池電量不足。請考慮儘快為裝置充電，以避免意外關機。</string>
+    <string name="battery_saver">省電模式</string>
+    <string name="battery_saver_on">省電模式已開啟</string>
+    <string name="battery_status_charging">充電中</string>
+    <string name="battery_status_discharging">放電中</string>
+    <string name="battery_status_full">已充滿</string>
+    <string name="battery_status_not_charging">未充電</string>
+    <string name="cycles">循環次數</string>
+    <string name="charging_speed">充電速度</string>
+    <string name="current_capacity">目前容量</string>
+    <string name="charging_source_ac">交流充電器</string>
+    <string name="charging_source_usb">USB</string>
+    <string name="charging_source_wireless">無線</string>
+    <string name="charging_source_dock">底座</string>
+    <string name="design_capacity">設計容量</string>
+    <string name="detailed_info">詳細資訊</string>
+    <string name="dialog_notice">資訊可能不準確，取決於裝置電池電量和電池驅動程式</string>
+    <string name="widget_description">實際電池百分比電量</string>
+    <string name="enhanced_widget_description">進階電池資訊</string>
+    <string name="open_battery_settings">開啟電池設定</string>
+    <string name="failed_to_open_battery_settings">無法開啟電池設定。</string>
+</resources>

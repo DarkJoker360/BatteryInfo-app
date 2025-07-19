@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2025 Simone Esposito
+  SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">バッテリー情報</string>
+
+    <string name="appwidget_text">バッテリー</string>
+    <string name="health">健康状態</string>
+    <string name="source">充電ソース</string>
+    <string name="voltage">電圧</string>
+    <string name="temperature">温度</string>
+    <string name="technology">技術</string>
+    <string name="time_remaining">残り時間</string>
+    <string name="unknown">不明</string>
+    <string name="battery">バッテリー</string>
+    <string name="battery_warning">バッテリー警告</string>
+    <string name="battery_assistance_required">バッテリーサポートが必要です</string>
+    <string name="battery_health_data_failed">バッテリー健康情報の読み取りに失敗しました</string>
+    <string name="battery_level_low">バッテリー残量が少なくなっています。予期しないシャットダウンを避けるため、すぐにデバイスを充電することを検討してください。</string>
+    <string name="battery_saver">バッテリーセーバー</string>
+    <string name="battery_saver_on">バッテリーセーバーがオンです</string>
+    <string name="battery_status_charging">充電中</string>
+    <string name="battery_status_discharging">放電中</string>
+    <string name="battery_status_full">満充電</string>
+    <string name="battery_status_not_charging">充電していません</string>
+    <string name="cycles">サイクル</string>
+    <string name="charging_speed">充電速度</string>
+    <string name="current_capacity">現在の容量</string>
+    <string name="charging_source_ac">AC充電器</string>
+    <string name="charging_source_usb">USB</string>
+    <string name="charging_source_wireless">ワイヤレス</string>
+    <string name="charging_source_dock">ドック</string>
+    <string name="design_capacity">設計容量</string>
+    <string name="detailed_info">詳細情報</string>
+    <string name="dialog_notice">情報は、デバイスのバッテリー残量とバッテリードライバーによって不正確な場合があります</string>
+    <string name="widget_description">実際のバッテリー残量パーセンテージ</string>
+    <string name="enhanced_widget_description">高度なバッテリー情報</string>
+    <string name="open_battery_settings">バッテリー設定を開く</string>
+    <string name="failed_to_open_battery_settings">バッテリー設定を開けませんでした。</string>
+</resources>

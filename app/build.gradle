@@ -1,0 +1,64 @@
+/*
+ * SPDX-FileCopyrightText: 2025 Simone Esposito
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-parcelize'
+    id 'kotlin-kapt'
+}
+
+android {
+    compileSdk 36
+
+    defaultConfig {
+        applicationId "com.esposito.batteryinfo"
+        minSdk 26
+        targetSdk 36
+        versionCode 8
+        versionName "2.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+
+        debug {
+            applicationIdSuffix ".dev"
+            resValue "string", "app_name", "Battery Info DEBUG"
+        }
+
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+    buildFeatures {
+        viewBinding true
+        dataBinding true
+    }
+    lint {
+        abortOnError false
+        warningsAsErrors false
+    }
+    namespace 'com.esposito.batteryinfo'
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.7.1'
+    implementation 'androidx.core:core-ktx:1.16.0'
+    implementation 'androidx.activity:activity-ktx:1.10.1'
+    implementation 'androidx.fragment:fragment-ktx:1.8.8'
+    implementation 'com.google.android.material:material:1.12.0'
+    implementation 'androidx.glance:glance-appwidget:1.1.1'
+}

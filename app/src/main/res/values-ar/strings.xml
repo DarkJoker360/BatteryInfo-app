@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2025 Simone Esposito
+  SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">معلومات البطارية</string>
+
+    <string name="appwidget_text">البطارية</string>
+    <string name="health">الحالة</string>
+    <string name="source">مصدر الشحن</string>
+    <string name="voltage">الجهد الكهربائي</string>
+    <string name="temperature">درجة الحرارة</string>
+    <string name="technology">التقنية</string>
+    <string name="time_remaining">الوقت المتبقي</string>
+    <string name="unknown">غير معروف</string>
+    <string name="battery">البطارية</string>
+    <string name="battery_warning">تحذير البطارية</string>
+    <string name="battery_assistance_required">مساعدة البطارية مطلوبة</string>
+    <string name="battery_health_data_failed">فشل في قراءة معلومات صحة البطارية</string>
+    <string name="battery_level_low">مستوى البطارية منخفض. فكر في شحن جهازك قريباً لتجنب الإغلاق غير المتوقع.</string>
+    <string name="battery_saver">موفر البطارية</string>
+    <string name="battery_saver_on">موفر البطارية مُفعل</string>
+    <string name="battery_status_charging">يشحن</string>
+    <string name="battery_status_discharging">يفرغ</string>
+    <string name="battery_status_full">مكتملة</string>
+    <string name="battery_status_not_charging">لا يشحن</string>
+    <string name="cycles">الدورات</string>
+    <string name="charging_speed">سرعة الشحن</string>
+    <string name="current_capacity">السعة الحالية</string>
+    <string name="charging_source_ac">شاحن التيار المتردد</string>
+    <string name="charging_source_usb">USB</string>
+    <string name="charging_source_wireless">لاسلكي</string>
+    <string name="charging_source_dock">قاعدة الإرساء</string>
+    <string name="design_capacity">سعة التصميم</string>
+    <string name="detailed_info">معلومات مفصلة</string>
+    <string name="dialog_notice">المعلومات قد تكون غير صحيحة، حسب مستوى بطارية الجهاز وبرامج تشغيل البطارية</string>
+    <string name="widget_description">مستوى نسبة البطارية الفعلي</string>
+    <string name="enhanced_widget_description">معلومات البطارية المتقدمة</string>
+    <string name="open_battery_settings">فتح إعدادات البطارية</string>
+    <string name="failed_to_open_battery_settings">فشل في فتح إعدادات البطارية.</string>
+</resources>

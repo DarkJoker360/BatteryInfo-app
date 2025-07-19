@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2025 Simone Esposito
+  SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Batteriinformation</string>
+
+    <string name="appwidget_text">Batteri</string>
+    <string name="health">Hälsa</string>
+    <string name="source">Laddningskälla</string>
+    <string name="voltage">Spänning</string>
+    <string name="temperature">Temperatur</string>
+    <string name="technology">Teknik</string>
+    <string name="time_remaining">Återstående Tid</string>
+    <string name="unknown">Okänd</string>
+    <string name="battery">Batteri</string>
+    <string name="battery_warning">Batterivarning</string>
+    <string name="battery_assistance_required">Batterihjälp krävs</string>
+    <string name="battery_health_data_failed">Misslyckades att läsa batterihälsoinformation</string>
+    <string name="battery_level_low">Batterinivån är låg. Överväg att ladda din enhet snart för att undvika oväntade avstängningar.</string>
+    <string name="battery_saver">Batterisparläge</string>
+    <string name="battery_saver_on">Batterisparläge är på</string>
+    <string name="battery_status_charging">Laddar</string>
+    <string name="battery_status_discharging">Laddar ur</string>
+    <string name="battery_status_full">Full</string>
+    <string name="battery_status_not_charging">Laddar inte</string>
+    <string name="cycles">Cykler</string>
+    <string name="charging_speed">Laddningshastighet</string>
+    <string name="current_capacity">Nuvarande Kapacitet</string>
+    <string name="charging_source_ac">AC-laddare</string>
+    <string name="charging_source_usb">USB</string>
+    <string name="charging_source_wireless">Trådlös</string>
+    <string name="charging_source_dock">Dockningsstation</string>
+    <string name="design_capacity">Designkapacitet</string>
+    <string name="detailed_info">Detaljerad Information</string>
+    <string name="dialog_notice">Information kan vara felaktig, beroende på enhetens batterinivå och batteridrivrutiner</string>
+    <string name="widget_description">Verklig batteriprocent nivå</string>
+    <string name="enhanced_widget_description">Avancerad batteriinformation</string>
+    <string name="open_battery_settings">Öppna batteriinställningar</string>
+    <string name="failed_to_open_battery_settings">Misslyckades att öppna batteriinställningar.</string>
+</resources>
