@@ -160,8 +160,9 @@ class MainActivity : AppCompatActivity() {
             add(BatteryDetailItem(getString(R.string.current_capacity), BatteryUtils.formatCapacity(batteryInfo.batteryCurrentCapacity)))
             add(BatteryDetailItem(getString(R.string.design_capacity), BatteryUtils.formatCapacity(batteryInfo.batteryDesignCapacity)))
             add(BatteryDetailItem(getString(R.string.technology), batteryInfo.batteryTechnology))
-            add(BatteryDetailItem(getString(R.string.source), batteryInfo.chargingSource))
-            
+            if (batteryInfo.isCharging) {
+                add(BatteryDetailItem(getString(R.string.source), batteryInfo.chargingSource))
+            }
             if (batteryInfo.cycleCount > 0) {
                 add(BatteryDetailItem(getString(R.string.cycles), batteryInfo.cycleCount.toString()))
             }
