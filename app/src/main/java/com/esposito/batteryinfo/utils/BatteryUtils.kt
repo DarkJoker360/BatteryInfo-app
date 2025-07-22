@@ -109,7 +109,11 @@ object BatteryUtils {
             val batteryCapacity = Class.forName("com.android.internal.os.PowerProfile")
                 .getMethod("getAveragePower", String::class.java)
                 .invoke(powerProfile, "battery.capacity") as Double
-            batteryCapacity.toInt()
+            val currentCapacity = getBatteryCurrentCapacity(context)
+            var designCapacity = batteryCapacity.toInt()
+            if (currentCapacity > batteryCapacity.toInt()) designCapacity = currentCapacity
+
+            designCapacity
         } catch (e: Exception) {
             Log.e(TAG, "Failed to get battery design capacity: ${e.message}")
             -1
