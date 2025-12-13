@@ -39,4 +39,5 @@
     <string name="enhanced_widget_description">معلومات البطارية المتقدمة</string>
     <string name="open_battery_settings">فتح إعدادات البطارية</string>
     <string name="failed_to_open_battery_settings">فشل في فتح إعدادات البطارية.</string>
+    <string name="discharge_speed">سرعة التفريغ</string>
 </resources>

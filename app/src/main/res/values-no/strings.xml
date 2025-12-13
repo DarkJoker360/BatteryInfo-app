@@ -39,4 +39,5 @@
     <string name="enhanced_widget_description">Avansert batteriinformasjon</string>
     <string name="open_battery_settings">Åpne batteriinnstillinger</string>
     <string name="failed_to_open_battery_settings">Klarte ikke å åpne batteriinnstillinger.</string>
+    <string name="discharge_speed">Utladningshastighet</string>
 </resources>

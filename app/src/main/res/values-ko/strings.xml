@@ -39,4 +39,5 @@
     <string name="enhanced_widget_description">고급 배터리 정보</string>
     <string name="open_battery_settings">배터리 설정 열기</string>
     <string name="failed_to_open_battery_settings">배터리 설정을 열지 못했습니다.</string>
+    <string name="discharge_speed">방전 속도</string>
 </resources>

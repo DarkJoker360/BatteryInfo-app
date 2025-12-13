@@ -39,4 +39,5 @@
     <string name="enhanced_widget_description">Geavanceerde batterij informatie</string>
     <string name="open_battery_settings">Batterij instellingen openen</string>
     <string name="failed_to_open_battery_settings">Fout bij het openen van batterij instellingen.</string>
+    <string name="discharge_speed">Ontlaadsnelheid</string>
 </resources>

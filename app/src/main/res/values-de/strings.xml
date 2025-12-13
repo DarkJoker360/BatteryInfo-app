@@ -39,4 +39,5 @@
     <string name="enhanced_widget_description">Erweiterte Akku-Informationen</string>
     <string name="open_battery_settings">Akku-Einstellungen öffnen</string>
     <string name="failed_to_open_battery_settings">Fehler beim Öffnen der Akku-Einstellungen.</string>
+    <string name="discharge_speed">Entladegeschwindigkeit</string>
 </resources>

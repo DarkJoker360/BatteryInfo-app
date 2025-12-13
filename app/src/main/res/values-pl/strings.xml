@@ -39,4 +39,5 @@
     <string name="enhanced_widget_description">Zaawansowane informacje o baterii</string>
     <string name="open_battery_settings">Otwórz ustawienia baterii</string>
     <string name="failed_to_open_battery_settings">Nie udało się otworzyć ustawień baterii.</string>
+    <string name="discharge_speed">Prędkość rozładowywania</string>
 </resources>

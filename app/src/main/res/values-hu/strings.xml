@@ -39,4 +39,5 @@
     <string name="enhanced_widget_description">Speciális akkumulátor információk</string>
     <string name="open_battery_settings">Akkumulátor beállítások megnyitása</string>
     <string name="failed_to_open_battery_settings">Az akkumulátor beállítások megnyitása sikertelen.</string>
+    <string name="discharge_speed">Merülési sebesség</string>
 </resources>
