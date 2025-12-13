@@ -41,6 +41,8 @@
     <string name="failed_to_open_battery_settings">Failed to open battery settings.</string>
 
     <string name="def" translatable="false">-</string>
-    <string name="charging_speed_format" translatable="false">%.1f mA</string>
+    <string name="discharge_speed">Discharge Speed</string>
+    <string name="charging_wattage_format" translatable="false">%.2f W</string>
+    <string name="charging_speed_format" translatable="false">%.0f mA</string>
     <string name="battery_level_percentage" translatable="false">%1$d%%</string>
 </resources>

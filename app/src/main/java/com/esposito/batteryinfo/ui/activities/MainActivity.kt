@@ -162,12 +162,16 @@ class MainActivity : AppCompatActivity() {
             add(BatteryDetailItem(getString(R.string.technology), batteryInfo.batteryTechnology))
             if (batteryInfo.isCharging) {
                 add(BatteryDetailItem(getString(R.string.source), batteryInfo.chargingSource))
+                if (batteryInfo.chargingWattage > 0) {
+                    add(BatteryDetailItem(getString(R.string.charging_speed), String.format(Locale.US, getString(R.string.charging_wattage_format), batteryInfo.chargingWattage)))
+                }
+            } else {
+                if (batteryInfo.dischargeSpeed > 0) {
+                    add(BatteryDetailItem(getString(R.string.discharge_speed), String.format(Locale.US, getString(R.string.charging_speed_format), batteryInfo.dischargeSpeed)))
+                }
             }
             if (batteryInfo.cycleCount > 0) {
                 add(BatteryDetailItem(getString(R.string.cycles), batteryInfo.cycleCount.toString()))
-            }
-            if (batteryInfo.chargingSpeed > 0) {
-                add(BatteryDetailItem(getString(R.string.charging_speed), String.format(Locale.US, getString(R.string.charging_speed_format), batteryInfo.chargingSpeed)))
             }
         }
         detailAdapter.submitList(detailItems)

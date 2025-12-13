@@ -23,5 +23,7 @@ data class BatteryInfo(
     var isOverheating: Boolean = false,
     var isHealthy: Boolean = false,
     var chargingSpeed: Float = 0f,
+    var chargingWattage: Float = 0f,
+    var dischargeSpeed: Float = 0f,
     var estimatedTimeRemaining: Long = 0
 )

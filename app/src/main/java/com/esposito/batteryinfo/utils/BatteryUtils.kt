@@ -71,9 +71,15 @@ object BatteryUtils {
         val chargingTimeRemaining = getChargingTimeRemaining(context)
         batteryInfo.chargingTimeRemaining = chargingTimeRemaining
 
+        val currentMicroAmperes = getCurrentMicroAmperes(context)
+        
         if (isCharging) {
-            val chargingSpeed = calculateChargingSpeed(context)
-            batteryInfo.chargingSpeed = chargingSpeed
+            batteryInfo.chargingSpeed = abs(currentMicroAmperes) / 1000f
+            val voltageVolts = voltage / 1000f
+            val currentAmperes = abs(currentMicroAmperes) / 1000000f
+            batteryInfo.chargingWattage = voltageVolts * currentAmperes
+        } else {
+            batteryInfo.dischargeSpeed = abs(currentMicroAmperes) / 1000f
         }
 
         val isPresent = batteryStatus.getBooleanExtra(BatteryManager.EXTRA_PRESENT, false)
@@ -155,14 +161,13 @@ object BatteryUtils {
         }
     }
 
-    private fun calculateChargingSpeed(context: Context): Float {
+    private fun getCurrentMicroAmperes(context: Context): Long {
         val batteryManager = context.getSystemService(Context.BATTERY_SERVICE) as BatteryManager
         return try {
-            val currentNow = batteryManager.getLongProperty(BatteryManager.BATTERY_PROPERTY_CURRENT_NOW)
-            abs(currentNow) / 1000f
+            batteryManager.getLongProperty(BatteryManager.BATTERY_PROPERTY_CURRENT_NOW)
         } catch (e: Exception) {
-            Log.e(TAG, "Failed to calculate charging speed: ${e.message}")
-            0f
+            Log.e(TAG, "Failed to get current flow: ${e.message}")
+            0L
         }
     }
 
