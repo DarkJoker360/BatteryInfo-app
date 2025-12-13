@@ -107,8 +107,12 @@ object BatteryUtils {
         }
     }
 
+    private var cachedDesignCapacity: Int = -1
+
     @SuppressLint("PrivateApi")
     fun getBatteryDesignCapacity(context: Context): Int {
+        if (cachedDesignCapacity != -1) return cachedDesignCapacity
+
         return try {
             val powerProfile = Class.forName("com.android.internal.os.PowerProfile")
                 .getConstructor(Context::class.java).newInstance(context)
@@ -119,6 +123,7 @@ object BatteryUtils {
             var designCapacity = batteryCapacity.toInt()
             if (currentCapacity > batteryCapacity.toInt()) designCapacity = currentCapacity
 
+            cachedDesignCapacity = designCapacity
             designCapacity
         } catch (e: Exception) {
             Log.e(TAG, "Failed to get battery design capacity: ${e.message}")

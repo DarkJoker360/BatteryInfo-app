@@ -177,6 +177,14 @@ class MainActivity : AppCompatActivity() {
         detailAdapter.submitList(detailItems)
     }
 
+    private val updateHandler = android.os.Handler(android.os.Looper.getMainLooper())
+    private val updateRunnable = object : Runnable {
+        override fun run() {
+            updateBatteryInfo()
+            updateHandler.postDelayed(this, 2000)
+        }
+    }
+
     override fun onResume() {
         super.onResume()
         val filter = IntentFilter().apply {
@@ -186,11 +194,13 @@ class MainActivity : AppCompatActivity() {
             addAction(PowerManager.ACTION_POWER_SAVE_MODE_CHANGED)
         }
         registerReceiver(batteryReceiver, filter)
+        updateHandler.post(updateRunnable)
     }
     
     override fun onPause() {
         super.onPause()
         unregisterReceiver(batteryReceiver)
+        updateHandler.removeCallbacks(updateRunnable)
     }
     
     private fun openBatterySettings() {
