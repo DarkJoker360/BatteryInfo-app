@@ -16,7 +16,10 @@ import android.view.View
 import android.view.animation.AccelerateDecelerateInterpolator
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.view.ViewCompat
 import androidx.core.view.WindowCompat
+import androidx.core.view.WindowInsetsCompat
+import androidx.core.view.updatePadding
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.esposito.batteryinfo.R
@@ -54,6 +57,8 @@ class MainActivity : AppCompatActivity() {
 
         UiUtils.adjustStatusbarIconColor(window)
 
+        applyWindowInsets()
+
         setupToolbar()
 
         batteryViewModel = ViewModelProvider(this)[BatteryViewModel::class.java]
@@ -65,6 +70,16 @@ class MainActivity : AppCompatActivity() {
         setupRecyclerViews()
         setupObservers()
         updateBatteryInfo()
+    }
+
+    private fun applyWindowInsets() {
+        ViewCompat.setOnApplyWindowInsetsListener(binding.nestedScrollView) { view, insets ->
+            val bars = insets.getInsets(
+                WindowInsetsCompat.Type.systemBars() or WindowInsetsCompat.Type.displayCutout()
+            )
+            view.updatePadding(bottom = bars.bottom)
+            insets
+        }
     }
 
     private fun setupToolbar() {
