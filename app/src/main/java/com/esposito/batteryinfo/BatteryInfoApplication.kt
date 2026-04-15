@@ -8,7 +8,7 @@ package com.esposito.batteryinfo
 import android.app.Application
 import com.google.android.material.color.DynamicColors
 
-class BatteryInfoApplication() : Application() {
+class BatteryInfoApplication : Application() {
 
     override fun onCreate() {
         super.onCreate()

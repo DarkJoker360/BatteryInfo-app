@@ -221,7 +221,9 @@ class MainActivity : AppCompatActivity() {
     private fun openBatterySettings() {
         try {
             val intent = Intent().apply {
-                setClassName("com.android.settings", "com.android.settings.Settings\$PowerUsageSummaryActivity")
+                setClassName("com.android.settings",
+                    $$"com.android.settings.Settings$PowerUsageSummaryActivity"
+                )
             }
             startActivity(intent)
         } catch (e: Exception) {

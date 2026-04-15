@@ -190,14 +190,14 @@ object BatteryUtils {
         val locale = Locale.getDefault()
         return if (locale.country == "US" || locale.country == "LR" || locale.country == "MM") {
             val tempFahrenheit = (tempCelsius * 9 / 5) + 32
-            String.Companion.format(Locale.US, "%.1f°F", tempFahrenheit)
+            String.format(Locale.US, "%.1f°F", tempFahrenheit)
         } else {
             String.format(locale, "%.1f°C", tempCelsius)
         }
     }
 
     fun formatVoltage(voltage: Int): String {
-        return String.Companion.format(Locale.US,"%.2fV", voltage / 1000f)
+        return String.format(Locale.US,"%.2fV", voltage / 1000f)
     }
 
     fun formatCapacity(capacity: Int): String {
@@ -213,10 +213,10 @@ object BatteryUtils {
         val days = hours / 24
 
         return when {
-            days > 0 -> String.Companion.format(Locale.US,"%dd %02dh %02dm", days, hours % 24, minutes % 60)
-            hours > 0 -> String.Companion.format(Locale.US,"%dh %02dm", hours, minutes % 60)
-            minutes > 0 -> String.Companion.format(Locale.US,"%dm %02ds", minutes, seconds % 60)
-            else -> String.Companion.format(Locale.US,"%ds", seconds)
+            days > 0 -> String.format(Locale.US,"%dd %02dh %02dm", days, hours % 24, minutes % 60)
+            hours > 0 -> String.format(Locale.US,"%dh %02dm", hours, minutes % 60)
+            minutes > 0 -> String.format(Locale.US,"%dm %02ds", minutes, seconds % 60)
+            else -> String.format(Locale.US,"%ds", seconds)
         }
     }
 }
